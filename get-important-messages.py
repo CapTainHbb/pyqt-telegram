@@ -62,10 +62,10 @@ class Telegram:
     """my telegram version"""
     def __init__(self):
         # Create Client Object
-        self.my_user_id = 1234880201
-        self.api_id = 1518447
-        self.api_hash = "39b68b7d48e8ee992a5861b34e3f4d37"
-        self.phone = '+989388680349'
+        self.my_user_id = ##########
+        self.api_id = # your api id
+        self.api_hash = # your api hash
+        self.phone = # your phone number with region code
 
         # Login
         self.client = TelegramClient(self.phone, self.api_id, self.api_hash)
